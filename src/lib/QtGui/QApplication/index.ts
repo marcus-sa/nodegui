@@ -13,20 +13,20 @@ export class QApplication extends Component {
       this.native = new addon.QApplication();
     }
   }
-  processEvents = () => {
+  processEvents() {
     this.native.processEvents();
-  };
-  exec = (): Number => {
+  }
+  exec(): Number {
     return this.native.exec();
-  };
-  static instance = (): QApplication => {
+  }
+  static instance(): QApplication {
     const nativeQApp = addon.QApplication.instance();
     return new QApplication(nativeQApp);
-  };
-  quit = () => {
+  }
+  quit() {
     return this.native.quit();
-  };
-  exit = (exitCode: number) => {
+  }
+  exit(exitCode: number) {
     return this.native.exit(exitCode);
-  };
+  }
 }

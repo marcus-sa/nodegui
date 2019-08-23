@@ -14,16 +14,16 @@ import {
 export abstract class NodeWidget extends EventWidget {
   layout?: NodeLayout;
   type: string = "widget";
-  show = () => {
+  show() {
     this.native.show();
-  };
-  resize = (width: number, height: number) => {
+  }
+  resize(width: number, height: number) {
     this.native.resize(width, height);
-  };
-  close = () => {
+  }
+  close() {
     return this.native.close();
-  };
-  setLayout = (parentLayout: NodeLayout) => {
+  }
+  setLayout(parentLayout: NodeLayout) {
     const flexLayout = parentLayout as FlexLayout;
     if (flexLayout.setFlexNode) {
       //if flex layout set the flexnode
@@ -31,75 +31,75 @@ export abstract class NodeWidget extends EventWidget {
     }
     this.native.setLayout(parentLayout.native);
     this.layout = parentLayout;
-  };
-  setStyleSheet = async (styleSheet: string) => {
+  }
+  async setStyleSheet(styleSheet: string) {
     const preparedSheet = await StyleSheet.create(styleSheet);
     await applyStyleSheet(this, preparedSheet);
-  };
-  setInlineStyle = async (style: string) => {
+  }
+  async setInlineStyle(style: string) {
     const preparedSheet = await prepareInlineStyleSheet(this, style);
     await applyStyleSheet(this, preparedSheet);
-  };
-  styleSheet = (): string => {
+  }
+  styleSheet(): string {
     return this.native.styleSheet();
-  };
-  hide = () => {
+  }
+  hide() {
     this.native.hide();
-  };
-  move = (x: number, y: number) => {
+  }
+  move(x: number, y: number) {
     this.native.move(x, y);
-  };
-  setObjectName = (objectName: string) => {
+  }
+  setObjectName(objectName: string) {
     this.native.setObjectName(objectName);
-  };
-  objectName = (): string => {
+  }
+  objectName(): string {
     return this.native.objectName();
-  };
-  setMouseTracking = (isMouseTracked: boolean) => {
+  }
+  setMouseTracking(isMouseTracked: boolean) {
     this.native.setMouseTracking(isMouseTracked);
-  };
-  setEnabled = (enabled: boolean) => {
+  }
+  setEnabled(enabled: boolean) {
     this.native.setEnabled(enabled);
-  };
-  setFixedSize = (width: number, height: number) => {
+  }
+  setFixedSize(width: number, height: number) {
     this.native.setFixedSize(width, height);
-  };
-  setGeometry = (x: number, y: number, w: number, h: number) => {
+  }
+  setGeometry(x: number, y: number, w: number, h: number) {
     this.native.setGeometry(x, y, w, h);
-  };
-  setMaximumSize = (maxw: number, maxh: number) => {
+  }
+  setMaximumSize(maxw: number, maxh: number) {
     this.native.setMaximumSize(maxw, maxh);
-  };
-  setMinimumSize = (minw: number, minh: number) => {
+  }
+  setMinimumSize(minw: number, minh: number) {
     this.native.setMinimumSize(minw, minh);
-  };
-  repaint = () => {
+  }
+  repaint() {
     this.native.repaint();
-  };
-  update = () => {
+  }
+  update() {
     this.native.update();
-  };
-  updateGeometry = () => {
+  }
+  updateGeometry() {
     this.native.updateGeometry();
-  };
-  pos = (): { x: number; y: number } => {
+  }
+  pos(): { x: number; y: number } {
     return this.native.pos();
-  };
-  size = (): { width: number; height: number } => {
+  }
+  size(): { width: number; height: number } {
     return this.native.size();
-  };
-  setAttribute = (attribute: WidgetAttribute, switchOn: boolean) => {
+  }
+  setAttribute(attribute: WidgetAttribute, switchOn: boolean) {
     return this.native.setAttribute(attribute, switchOn);
-  };
-  testAttribute = (attribute: WidgetAttribute): boolean => {
+  }
+  testAttribute(attribute: WidgetAttribute): boolean {
     return this.native.testAttribute(attribute);
-  };
-  setWindowOpacity = (opacity: Number) => {
+  }
+  setWindowOpacity(opacity: Number) {
     this.native.setWindowOpacity(opacity);
-  };
-  setWindowFlag = (windowType: WindowType, switchOn: boolean) => {
+  }
+  setWindowFlag(windowType: WindowType, switchOn: boolean) {
     return this.native.setWindowFlag(windowType, switchOn);
-  };
+  }
 }
 
 export class QWidget extends NodeWidget {

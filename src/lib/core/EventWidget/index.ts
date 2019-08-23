@@ -15,18 +15,18 @@ export abstract class EventWidget extends YogaWidget {
     }
   }
 
-  addEventListener = (
+  addEventListener(
     eventType: string,
     callback: (payload?: NativeEvent | any) => void
-  ) => {
+  ) {
     this.native.subscribeToQtEvent(eventType);
     this.emitter.addListener(eventType, callback);
-  };
+  }
 
-  removeEventListener = (
+  removeEventListener(
     eventType: string,
     callback?: (payload?: NativeEvent | any) => void
-  ) => {
+  ) {
     if (callback) {
       this.emitter.removeListener(eventType, callback);
     } else {
@@ -35,7 +35,7 @@ export abstract class EventWidget extends YogaWidget {
     if (this.emitter.listenerCount(eventType) < 1) {
       this.native.unSubscribeToQtEvent(eventType);
     }
-  };
+  }
 }
 
 export const BaseWidgetEvents = Object.freeze({

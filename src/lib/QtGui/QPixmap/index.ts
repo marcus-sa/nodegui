@@ -17,14 +17,14 @@ export class QPixmap extends Component {
       this.native = new addon.QPixmap();
     }
   }
-  load = (imageUrl: string) => {
+  load(imageUrl: string) {
     return this.native.load(imageUrl);
-  };
-  scaled = (
+  }
+  scaled(
     width: number,
     height: number,
     aspectRatioMode?: AspectRatioMode
-  ): QPixmap => {
+  ): QPixmap {
     let nativePixmap;
     if (aspectRatioMode) {
       nativePixmap = this.native.scaled(width, height, aspectRatioMode);

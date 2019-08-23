@@ -4,16 +4,16 @@ import { NodeWidget } from "../../QtGui/QWidget";
 // All Layouts should extend this abstract class.
 export abstract class NodeLayout extends Component {
   type: string = "layout";
-  abstract addWidget: (childWidget: NodeWidget, ...args: any[]) => void;
-  activate = (): boolean => {
+  abstract addWidget(childWidget: NodeWidget, ...args: any[]): void;
+  activate(): boolean {
     return this.native.activate();
-  };
-  invalidate = () => {
+  }
+  invalidate() {
     this.native.invalidate();
-  };
-  update = () => {
+  }
+  update() {
     this.native.update();
-  };
+  }
 }
 
 // export class QLayout extends NodeLayout { //Dont need QLayout for now

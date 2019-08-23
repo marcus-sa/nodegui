@@ -7,7 +7,7 @@ export class QKeyEvent {
   constructor(event: NativeEvent) {
     this.native = new addon.QKeyEvent(event);
   }
-  text = (): string => {
+  text(): string {
     return this.native.text();
-  };
+  }
 }

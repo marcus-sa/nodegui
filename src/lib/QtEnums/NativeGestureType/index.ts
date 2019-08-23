@@ -5,5 +5,5 @@ export enum NativeGestureType {
   ZoomNativeGesture = 3,
   SmartZoomNativeGesture = 4,
   RotateNativeGesture = 5,
-  SwipeNativeGesture = 6
+  SwipeNativeGesture = 6,
 }

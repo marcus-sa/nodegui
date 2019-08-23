@@ -21,5 +21,5 @@ export enum CursorShape {
   DragMoveCursor = 20,
   DragCopyCursor = 19,
   DragLinkCursor = 21,
-  BitmapCursor = 24
+  BitmapCursor = 24,
 }

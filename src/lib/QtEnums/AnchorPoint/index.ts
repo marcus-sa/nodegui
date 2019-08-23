@@ -4,5 +4,5 @@ export enum AnchorPoint {
   AnchorRight = 2,
   AnchorTop = 3,
   AnchorVerticalCenter = 4,
-  AnchorBottom = 5
+  AnchorBottom = 5,
 }

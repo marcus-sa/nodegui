@@ -4,7 +4,7 @@ import { BaseWidgetEvents } from "../../core/EventWidget";
 import { NativeElement } from "../../core/Component";
 
 export const QCheckBoxEvents = Object.freeze({
-  ...BaseWidgetEvents
+  ...BaseWidgetEvents,
 });
 export class QCheckBox extends NodeWidget {
   native: NativeElement;

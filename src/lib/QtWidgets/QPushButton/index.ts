@@ -9,7 +9,7 @@ export const QPushButtonEvents = Object.freeze({
   clicked: "clicked",
   pressed: "pressed",
   released: "released",
-  toggled: "toggled"
+  toggled: "toggled",
 });
 
 export class QPushButton extends NodeWidget {

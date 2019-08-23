@@ -82,5 +82,5 @@ export enum WidgetAttribute {
   WA_TouchPadAcceptSingleTouchEvents = 123,
   WA_X11DoNotAcceptFocus = 126,
   WA_AlwaysStackOnTop = 128,
-  WA_ContentsMarginsRespectsSafeArea = 130
+  WA_ContentsMarginsRespectsSafeArea = 130,
 }

@@ -5,7 +5,7 @@ import { NativeElement } from "../../core/Component";
 import { NodeLayout } from "../QLayout";
 
 export const QMainWindowEvents = Object.freeze({
-  ...BaseWidgetEvents
+  ...BaseWidgetEvents,
 });
 export class QMainWindow extends NodeWidget {
   native: NativeElement;

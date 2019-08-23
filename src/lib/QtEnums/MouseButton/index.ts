@@ -33,5 +33,5 @@ export enum MouseButton {
   ExtraButton21 = 0x00800000,
   ExtraButton22 = 0x01000000,
   ExtraButton23 = 0x02000000,
-  ExtraButton24 = 0x04000000
+  ExtraButton24 = 0x04000000,
 }

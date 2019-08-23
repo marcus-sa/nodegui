@@ -18,5 +18,5 @@ export enum InputMethodQuery {
   ImAnchorRectangle = 0x4000,
   ImInputItemClipRectangle = 0x8000,
   //Masks:
-  ImQueryAll = 0xffffffff
+  ImQueryAll = 0xffffffff,
 }

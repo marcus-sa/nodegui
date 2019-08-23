@@ -5,7 +5,7 @@ import { NativeElement } from "../../core/Component";
 import { QPixmap } from "../../QtGui/QPixmap";
 
 export const QLabelEvents = Object.freeze({
-  ...BaseWidgetEvents
+  ...BaseWidgetEvents,
 });
 export class QLabel extends NodeWidget {
   native: NativeElement;

@@ -8,5 +8,5 @@ export enum TextFlag {
   TextHideMnemonic = 0x8000,
   TextDontPrint = 0x4000,
   TextIncludeTrailingSpaces = 0x08000000,
-  TextJustificationForced = 0x10000
+  TextJustificationForced = 0x10000,
 }

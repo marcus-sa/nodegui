@@ -4,5 +4,5 @@ export enum ToolBarArea {
   TopToolBarArea = 0x4,
   BottomToolBarArea = 0x8,
   AllToolBarAreas = 0xf,
-  NoToolBarArea = 0
+  NoToolBarArea = 0,
 }

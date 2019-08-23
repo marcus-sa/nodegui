@@ -9,5 +9,5 @@ export enum DateFormat {
   SystemLocaleDate = 2,
   LocaleDate = 3,
   LocalDate = 2,
-  RFC2822Date = 8
+  RFC2822Date = 8,
 }

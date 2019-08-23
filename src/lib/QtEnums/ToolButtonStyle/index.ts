@@ -3,5 +3,5 @@ export enum ToolButtonStyle {
   ToolButtonTextOnly = 1,
   ToolButtonTextBesideIcon = 2,
   ToolButtonTextUnderIcon = 3,
-  ToolButtonFollowStyle = 4
+  ToolButtonFollowStyle = 4,
 }

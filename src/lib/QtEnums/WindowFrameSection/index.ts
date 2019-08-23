@@ -8,5 +8,5 @@ export enum WindowFrameSection {
   BottomRightSection = 6,
   BottomSection = 7,
   BottomLeftSection = 8,
-  TitleBarArea = 9
+  TitleBarArea = 9,
 }

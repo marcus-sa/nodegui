@@ -3,5 +3,5 @@ export enum GestureState {
   GestureStarted = 1,
   GestureUpdated = 2,
   GestureFinished = 3,
-  GestureCanceled = 4
+  GestureCanceled = 4,
 }

@@ -10,5 +10,5 @@ export enum AlignmentFlag {
   AlignVCenter = 0x0080,
   AlignBaseline = 0x0100,
   //You can use only one of the horizontal flags at a time. There is one two-dimensional flag
-  AlignCenter = 0x0084
+  AlignCenter = 0x0084,
 }

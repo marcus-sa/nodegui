@@ -11,7 +11,7 @@ export const QLineEditEvents = Object.freeze({
   returnPressed: "returnPressed",
   selectionChanged: "selectionChanged",
   textChanged: "textChanged",
-  textEdited: "textEdited"
+  textEdited: "textEdited",
 });
 export class QLineEdit extends NodeWidget {
   native: NativeElement;

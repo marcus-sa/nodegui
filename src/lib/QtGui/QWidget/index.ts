@@ -4,11 +4,7 @@ import { EventWidget, BaseWidgetEvents } from "../../core/EventWidget";
 import { NativeElement } from "../../core/Component";
 import { FlexLayout } from "../../core/FlexLayout";
 import { WidgetAttribute, WindowType } from "../../QtEnums";
-import {
-  applyStyleSheet,
-  StyleSheet,
-  prepareInlineStyleSheet
-} from "../../core/Style/StyleSheet";
+import { applyStyleSheet, StyleSheet, prepareInlineStyleSheet } from "../../core/Style/StyleSheet";
 // All Widgets should extend from NodeWidget
 // Implement all native QWidget methods here so that all widgets get access to those aswell
 export abstract class NodeWidget extends EventWidget {

@@ -9,5 +9,5 @@ export enum ItemFlag {
   ItemIsAutoTristate = 64,
   ItemIsTristate = 64,
   ItemNeverHasChildren = 128,
-  ItemIsUserTristate = 256
+  ItemIsUserTristate = 256,
 }

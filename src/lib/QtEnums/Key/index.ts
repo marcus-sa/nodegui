@@ -467,5 +467,5 @@ export enum Key {
   Key_Sleep = 0x01020004,
   Key_Zoom = 0x01020006,
   Key_Exit = 0x0102000a,
-  Key_Cancel = 0x01020001
+  Key_Cancel = 0x01020001,
 }

@@ -3,5 +3,5 @@ export enum NavigationMode {
   NavigationModeKeypadTabOrder = 1,
   NavigationModeKeypadDirectional = 2,
   NavigationModeCursorAuto = 3,
-  NavigationModeCursorForceVisible = 4
+  NavigationModeCursorForceVisible = 4,
 }

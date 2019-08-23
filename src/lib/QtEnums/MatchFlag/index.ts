@@ -8,5 +8,5 @@ export enum MatchFlag {
   MatchRegExp = 4,
   MatchWildcard = 5,
   MatchWrap = 32,
-  MatchRecursive = 64
+  MatchRecursive = 64,
 }

@@ -17,5 +17,5 @@ export enum BrushStyle {
   LinearGradientPattern = 15,
   ConicalGradientPattern = 17,
   RadialGradientPattern = 16,
-  TexturePattern = 24
+  TexturePattern = 24,
 }

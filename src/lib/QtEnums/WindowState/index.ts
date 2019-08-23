@@ -3,5 +3,5 @@ export enum WindowState {
   WindowMinimized = 0x00000001,
   WindowMaximized = 0x00000002,
   WindowFullScreen = 0x00000004,
-  WindowActive = 0x00000008
+  WindowActive = 0x00000008,
 }

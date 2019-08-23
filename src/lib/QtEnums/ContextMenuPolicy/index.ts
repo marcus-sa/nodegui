@@ -3,5 +3,5 @@ export enum ContextMenuPolicy {
   PreventContextMenu = 4,
   DefaultContextMenu = 1,
   ActionsContextMenu = 2,
-  CustomContextMenu = 3
+  CustomContextMenu = 3,
 }

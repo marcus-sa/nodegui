@@ -5,7 +5,7 @@ import { NativeElement } from "../../core/Component";
 import { Orientation } from "../../QtEnums";
 
 export const QProgressBarEvents = Object.freeze({
-  ...BaseWidgetEvents
+  ...BaseWidgetEvents,
 });
 export class QProgressBar extends NodeWidget {
   native: NativeElement;

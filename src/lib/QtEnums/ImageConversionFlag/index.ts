@@ -16,5 +16,5 @@ export enum ImageConversionFlag {
   AvoidDither = 0x00000080,
   AutoDither = 0x00000000,
   NoOpaqueDetection = 0x00000100,
-  NoFormatConversion = 0x00000200
+  NoFormatConversion = 0x00000200,
 }

@@ -4,7 +4,7 @@ import { BaseWidgetEvents } from "../../core/EventWidget";
 import { NativeElement } from "../../core/Component";
 
 export const QRadioButtonEvents = Object.freeze({
-  ...BaseWidgetEvents
+  ...BaseWidgetEvents,
 });
 export class QRadioButton extends NodeWidget {
   native: NativeElement;

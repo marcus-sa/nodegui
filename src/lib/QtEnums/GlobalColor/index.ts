@@ -18,5 +18,5 @@ export enum GlobalColor {
   lightGray = 6,
   transparent = 19,
   color0 = 0,
-  color1 = 1
+  color1 = 1,
 }

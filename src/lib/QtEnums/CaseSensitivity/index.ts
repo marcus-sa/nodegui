@@ -1,4 +1,4 @@
 export enum CaseSensitivity {
   CaseInsensitive = 0,
-  CaseSensitive = 1
+  CaseSensitive = 1,
 }

@@ -6,5 +6,5 @@ export enum EnterKeyType {
   EnterKeySend = 4,
   EnterKeySearch = 5,
   EnterKeyNext = 6,
-  EnterKeyPrevious = 7
+  EnterKeyPrevious = 7,
 }

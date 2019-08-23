@@ -6,5 +6,5 @@ export enum FocusReason {
   PopupFocusReason = 4,
   ShortcutFocusReason = 5,
   MenuBarFocusReason = 6,
-  OtherFocusReason = 7
+  OtherFocusReason = 7,
 }

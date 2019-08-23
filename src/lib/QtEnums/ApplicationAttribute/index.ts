@@ -25,5 +25,5 @@ export enum ApplicationAttribute {
   AA_CompressTabletEvents = 29,
   AA_DontCheckOpenGLContextThreadAffinity = 26,
   AA_DisableShaderDiskCache = 27,
-  AA_DisableWindowContextHelpButton = 30
+  AA_DisableWindowContextHelpButton = 30,
 }

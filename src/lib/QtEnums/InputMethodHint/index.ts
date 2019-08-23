@@ -5,9 +5,9 @@ export enum InputMethodHint {
   ImhSensitiveData = 0x2,
   ImhNoAutoUppercase = 0x4,
   ImhPreferNumbers = 0x8,
-  ImhPreferUppercase = 0x10,	
-  ImhPreferLowercase = 0x20,	
-  ImhNoPredictiveText = 0x40,	
+  ImhPreferUppercase = 0x10,
+  ImhPreferLowercase = 0x20,
+  ImhNoPredictiveText = 0x40,
   ImhDate = 0x80,
   ImhTime = 0x100,
   ImhPreferLatin = 0x200,
@@ -24,5 +24,5 @@ export enum InputMethodHint {
   ImhUrlCharactersOnly = 0x400000,
   ImhLatinOnly = 0x800000,
   //Masks:
-  ImhExclusiveInputMask = 0xffff0000
+  ImhExclusiveInputMask = 0xffff0000,
 }

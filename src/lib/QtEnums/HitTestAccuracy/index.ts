@@ -1,4 +1,4 @@
 export enum HitTestAccuracy {
   ExactHit = 0,
-  FuzzyHit = 1
+  FuzzyHit = 1,
 }

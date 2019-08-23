@@ -20,11 +20,7 @@ export class QPixmap extends Component {
   load = (imageUrl: string) => {
     return this.native.load(imageUrl);
   };
-  scaled = (
-    width: number,
-    height: number,
-    aspectRatioMode?: AspectRatioMode
-  ): QPixmap => {
+  scaled = (width: number, height: number, aspectRatioMode?: AspectRatioMode): QPixmap => {
     let nativePixmap;
     if (aspectRatioMode) {
       nativePixmap = this.native.scaled(width, height, aspectRatioMode);

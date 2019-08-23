@@ -10,7 +10,7 @@ import {
   QWidget,
   QIcon,
   QPlainTextEdit,
-  QPlainTextEditEvents
+  QPlainTextEditEvents,
 } from "./index";
 
 const path = require("path");
@@ -29,15 +29,12 @@ const lineEdit = new QLineEdit();
 lineEdit.setPlaceholderText("Enter your thoughts here");
 lineEdit.setObjectName("editable");
 
-
 const button = new QPushButton();
 button.setText("Push Push Push!");
 button.setObjectName("btn");
 button.setFlat(true);
 
-const icon = new QIcon(
-  path.resolve(__dirname, "../extras/assets/start_icon.png")
-);
+const icon = new QIcon(path.resolve(__dirname, "../extras/assets/start_icon.png"));
 button.setIcon(icon);
 
 const progressbar = new QProgressBar();

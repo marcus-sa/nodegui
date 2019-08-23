@@ -4,5 +4,5 @@ export enum UIEffect {
   UI_AnimateCombo = 3,
   UI_AnimateTooltip = 4,
   UI_FadeTooltip = 5,
-  UI_AnimateToolBox = 6
+  UI_AnimateToolBox = 6,
 }

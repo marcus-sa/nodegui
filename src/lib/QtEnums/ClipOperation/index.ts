@@ -1,5 +1,5 @@
 export enum ClipOperation {
   NoClip = 0,
   ReplaceClip = 1,
-  IntersectClip = 2
+  IntersectClip = 2,
 }
